@@ -1,0 +1,3 @@
+{"level":"info","module":"default","msg":"{{ true} {debug :8001 0 20ns 30ns 120ns 1048576} {debug json false true ./runtime/logs daily 168ns 24ns false}}","time":"2020-07-29T11:35:14+08:00"}
+{"level":"info","module":"default","msg":"Listen on ::8001","time":"2020-07-29T11:35:14+08:00"}
+{"body":"","client_ip":"::1","data_length":68,"latency":"614.666µs","level":"info","method":"GET","module":"default","msg":"request_log","path":"/api/v1/ping","referer":"","status":200,"time":"2020-07-29T11:42:52+08:00","timestamp":1595994172795,"userAgent":"PostmanRuntime/7.26.1"}

@@ -1,0 +1,27 @@
+{
+    "app":{
+        "secret":"",
+        "debug":true
+    },
+    "server":{
+        "run_mode": "debug",
+        "listen_addr": ":8001",
+        "limit_connection": 0,
+        "read_timeout": 20,
+        "write_timeout": 30,
+        "idle_timeout": 120,
+        "max_header_bytes": 1048576
+    },
+    "logger": {
+        "level": "debug",
+        "formatter": "json",
+        "disable_console": false,
+        "write": true,
+        "path": "./runtime/logs",
+        "file_name": "daily",
+        "max_age": 168,
+        "rotation_time": 24,
+        "debug": false
+    }
+    
+}
